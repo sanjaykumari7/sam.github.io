@@ -1,16 +1,102 @@
-I appreciate you reaching out, but I need to clarify something: the file you've shared appears to be a **PDF file** (a binary document format), not source code that can be meaningfully edited as plaintext.
+\documentclass[a4paper,10pt]{article}
 
-The content shown is the raw PDF structure, which includes:
-- PDF headers and metadata
-- Compressed binary streams (FlateDecode)
-- Font and content encoding data
+% Packages
+\usepackage[top=0.6in, bottom=0.6in, left=0.7in, right=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{parskip}
 
-**What you likely need:**
+% Hyperlink styling
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black
+}
 
-1. **If you want to edit the CV content**: Open the PDF in a proper editor (Adobe Acrobat, Preview, etc.) or convert it to an editable format (Word, Google Docs)
+% Section formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{4pt}
 
-2. **If you have a programming question**: Please share the actual source code (Python, JavaScript, C++, etc.) you'd like help with
+% No page numbers
+\pagestyle{empty}
 
-3. **If you found an error in the PDF**: Describe what needs to be fixed, and I can help you find the right tool or approach
+\begin{document}
 
-Could you clarify what specific issue you'd like me to help fix?
+% ─── HEADER ───────────────────────────────────────────────────────────────────
+\begin{center}
+    {\LARGE \textbf{SANJAYKUMAR M}} \\[4pt]
+    \small
+    \faMapMarker* \ Palani -- 624601 \quad
+    \faPhone \ 7867952270 \quad
+    \faEnvelope \ \href{mailto:sam984332@gmail.com}{sam984332@gmail.com} \\[2pt]
+    \faLinkedin \ \href{https://linkedin.com/in/sanjaykumar-m}{linkedin.com/in/sanjaykumar-m} \quad
+    \faGlobe \ \href{https://sanjaykumari7.github.io/sam.github.io/}{sanjaykumari7.github.io/sam.github.io}
+\end{center}
+
+% ─── PROFILE ──────────────────────────────────────────────────────────────────
+\section{Profile}
+Final-year Biotechnology student with strong English communication and professional writing skills. Proficient in Google Sheets, Microsoft Excel formulas, and email correspondence for business environments. Experienced in coordinating activities, managing data, and delivering clear communication across teams. Demonstrates adaptability, attention to detail, and a proactive approach to learning new tools and responsibilities. Comfortable working independently or collaboratively, consistently contributing positively to organizational goals while continuously improving professional and technical skills.
+
+% ─── EXPERIENCE ───────────────────────────────────────────────────────────────
+\section{Experience}
+\textbf{Internship -- Bio Pharma \& Nanotechnology} \hfill \textit{May 2024}
+\begin{itemize}[noitemsep, topsep=2pt, left=0pt]
+    \item Completed an internship focused on biopharmaceuticals and nanotechnology.
+    \item Performed chromatographic techniques including TLC and Column Chromatography for separation and analysis of bioactive compounds.
+    \item Conducted agarose gel electrophoresis for DNA analysis, including extraction, quantification, and visualization of nucleic acids.
+    \item Gained hands-on exposure to molecular techniques and basic nanoparticle synthesis.
+\end{itemize}
+
+% ─── EDUCATION ────────────────────────────────────────────────────────────────
+\section{Education}
+\textbf{Hindusthan College of Arts and Science, Coimbatore} \\
+Bachelor of Science in Biotechnology \hfill \textit{70\%}
+
+% ─── OTHER COURSES ────────────────────────────────────────────────────────────
+\section{Other Courses}
+\begin{itemize}[noitemsep, topsep=2pt, left=0pt]
+    \item Medical Coding (Basics)
+    \item Next Generation Sequencing
+    \item Diploma in Microbial Biotechnology
+\end{itemize}
+
+% ─── SKILLS ───────────────────────────────────────────────────────────────────
+\section{Skills}
+\begin{itemize}[noitemsep, topsep=2pt, left=0pt]
+    \item \textbf{Laboratory Techniques:} Agarose gel electrophoresis, TLC and column chromatography, DNA extraction and analysis, basic molecular biology techniques, and nanoparticle synthesis.
+    \item \textbf{Communication \& Teamwork:} Able to communicate clearly and work effectively with team members.
+    \item \textbf{Computer Skills:} Proficient in MS Office tools (Word, Excel, PowerPoint) for documentation, data entry, web development and presentations.
+    \item \textbf{Coordinator:} Assisted in coordinating placement activities and communication between students and placement cell.
+\end{itemize}
+
+% ─── CERTIFICATES ─────────────────────────────────────────────────────────────
+\section{Certificates}
+\begin{itemize}[noitemsep, topsep=2pt, left=0pt]
+    \item Certificate for Completion of Biopython Training -- IIT Bombay (2025)
+    \item The World AIDS Day -- Hindusthan College of Arts and Science (2024)
+    \item Lifestyle Disease and Management -- Karpagam College of Higher Education (2024)
+    \item BIOSUMMIT 2024 -- Hindusthan College of Arts and Science (2024)
+    \item LATEX Training -- Spoken Tutorial Project, IIT Bombay (2025)
+    \item Spectrum 2024 -- Rathinom College of Arts and Science (2024)
+    \item Communication with Impact -- IBM SkillsBuild (2025)
+\end{itemize}
+
+% ─── ACTIVITIES ───────────────────────────────────────────────────────────────
+\section{Activities}
+Google Workspace Collaboration, Data Entry, Placement Coordinator, Student Representative, Event Coordination
+
+% ─── HOBBIES ──────────────────────────────────────────────────────────────────
+\section{Hobbies}
+Web Development, Exploring Automation, Gaming, Photography, Photoshop, Typing \& Speed Improvement Practice, Drawing
+
+% ─── LANGUAGES ────────────────────────────────────────────────────────────────
+\section{Languages}
+\begin{itemize}[noitemsep, topsep=2pt, left=0pt]
+    \item Tamil -- Native
+    \item English -- Fluent
+\end{itemize}
+
+\end{document}
